@@ -8,6 +8,11 @@ docker run --name sample-project-mydb  -p 5200:3306 -e MYSQL_ROOT_PASSWORD=my-se
 ```bash
 cat ./maintenance/dbDump.sql | docker exec -i my-mysql /usr/bin/mysql -u root --password=my-secret-pw sample-project-mydb
 ```
+### Setup project
+### Libraries install
+```
+npm install
+```
 #### Run the project
 ```bash
 node index.js
