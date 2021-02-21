@@ -1,0 +1,18 @@
+{
+  "name": "sample-project-be",
+  "version": "0.1.0",
+  "description": "Backend project for sample VueJs project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Sedymov",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "uuid": "^8.3.2"
+  }
+}
